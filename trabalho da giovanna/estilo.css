@@ -1,0 +1,196 @@
+*{  
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font: 16px  arial, verdana;
+    color: rgb(7, 7, 7);
+}
+
+.mainmenu{
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(4, 252, 231) , rgb(3, 12, 89));
+    display: inline-block;
+    top: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.blockmenu{
+    list-style: none;
+    padding: 0;
+    float: right;
+}
+
+.itensmenu{
+    display: inline;
+    text-align: right;
+
+}
+.itensmenutext{
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 20px;
+}
+.center{
+    text-align: center;
+}
+.logo{
+    text-align: left;
+    position: relative;
+}
+
+.links{
+    padding: 45px;
+    text-align: right;
+}
+
+.corpodapagina{
+    text-align: center;
+    background-color: lightblue;
+    height: 682px;
+}
+main{
+    background-color:rgb(220, 220, 224);
+    height: 682px;
+}
+.nome_universidade{
+    font-size: 30px;
+    padding-top: 100px;
+    
+}
+.nome_curso{
+    font-size: 25px;
+    padding-top: 40px;
+}
+.nome_autor{
+    padding: 60px;
+    font-size: 20px;
+    
+}
+.titulo{
+    padding-top: 80px;
+    font-size: 3em;
+}
+
+footer{
+    height: 150px;
+    background-image: linear-gradient(to right, blue , rgb(2, 131, 190));
+}
+.rodape{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+
+}
+ .rede{
+    color: white;
+     padding: 11px;
+ }   
+ 
+.titulo_sobre{
+    padding-top: 30px;
+    text-align: center;
+}
+ .texoSobre{
+     float: right;
+     font-size: 25px;
+     
+ }
+ .grid-sobre{
+     display: grid;
+     grid-template-columns: 40% 60%;
+     margin-top: 30px;
+     text-align: left;
+ }
+ .coluna{   
+        margin: auto;
+        padding: 20px;
+ }
+
+ .grid-container{
+     display: grid;
+     grid-template-columns: 20% 30% 25% 20% ;
+ }
+ .colunasContatos{
+     margin-top: 20px;
+     padding-top: 130px;
+     
+     height: 550px;
+     
+ }
+ form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+   
+  }
+  
+  form div  {
+    margin-top: 1em;
+  }
+  
+  label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    padding: 5px;
+    border-radius: 6px;
+  }
+  
+  
+  textarea {
+    vertical-align: top;
+    height: 5em;
+  }
+  
+  .button {
+    padding-left: 90px; 
+  }
+  
+  .btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13;
+    width: 165px;
+    height: 35px;
+    background-color: #0066b8;
+    padding: 9px 50px;
+    border: none;
+    color: white;
+    margin-right: 10px;
+  }
+
+  .grid-port{
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    margin-top: 10%;
+    
+  }
+  .coluna-port{
+    padding: 20px;
+
+  }
+  .projetos{
+   padding: 10px;
+   border: 2px solid;
+   box-shadow: 5px 10px 8px 10px #888888;
+  }
+  .gridscratch{
+    background-color: lightblue;
+    display: flex;
+    float: center;
+    align-items: center;
+  }
